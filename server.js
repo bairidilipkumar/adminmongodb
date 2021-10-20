@@ -1,7 +1,7 @@
 const express=require("express");
 const mongodb=require("mongodb")
 const mongoclient=mongodb.MongoClient;
-const url="mongodb+srv://shoaib:Shoaib%40123@cluster0.p6yw7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const url="mongodb+srv://shoaib:Shoaib@123@cluster0.p6yw7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const app=express();
 const cors=require("cors")
 

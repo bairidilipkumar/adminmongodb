@@ -1,7 +1,7 @@
 const express=require("express");
 const mongodb=require("mongodb")
 const mongoclient=mongodb.MongoClient;
-const url="mongodb://localhost:27017";
+const url="mongodb+srv://dilip:dilipkumar12345@cluster0.krv2i.mongodb.net/test";
 const app=express();
 const cors=require("cors")
 
